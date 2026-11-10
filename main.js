@@ -1,7 +1,7 @@
 // Dr. Ahmed Bekhet | Learn Arabic: small site helpers (no libraries).
 
-// Where form messages go. Replace with Dr. Ahmed's real address.
-var CONTACT_EMAIL = "hello@drahmedbekhet.com";
+// Where form messages go.
+var CONTACT_EMAIL = "arabicwahmed@gmail.com";
 
 // Mobile menu
 var navEl = document.querySelector("nav.top");
