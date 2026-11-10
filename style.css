@@ -247,3 +247,15 @@ header.site.light .page-hero p{opacity:1;color:var(--muted)}
 @media (prefers-reduced-motion:reduce){.tile{transition:none}}
 .trust{margin-top:22px;font-size:15px;color:var(--muted);font-weight:600}
 .creds{margin-top:8px;font-weight:700;color:var(--terracotta)}
+/* tighter home (v4) */
+section.block.tight{padding-block:40px}
+.hero.bright{padding-block:8px 36px;gap:32px;align-items:center}
+.hero-photo{width:min(310px,100%)}
+.tight .sec-head{margin-bottom:0;align-items:center}
+.tight .formats{margin-top:0;justify-content:flex-end}
+.tight .tiles{margin-top:22px}
+.tile{padding:26px 18px 22px;border-radius:120px 120px 20px 20px}
+.tile .ar{font-size:44px}
+.signup{padding-block:28px}
+@media (max-width:900px){.tight .formats{justify-content:flex-start}.hero-photo{width:min(260px,75%)}}
+.hero.bright .lead{max-width:44ch}
